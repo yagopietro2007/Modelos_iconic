@@ -1,0 +1,190 @@
+#introducao {
+    background-color: #ffd1a5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    gap: 50px;
+    min-height: 550px;
+}
+
+#introducao article {
+    width: 55%;
+}
+
+#introducao h2 {
+    font-family: Georgia, serif;
+    font-size: 55px;
+    color: #943a44;
+    margin: 15px 0;
+}
+
+#introducao p {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+#introducao > img {
+    width: 200px;
+    height: 550px;
+    object-fit: cover;
+    border-radius: 18px;
+    border: 3px solid rgb(190, 160, 40);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#8C6A55;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+/* CABEÇALHO */
+
+header {
+    background-color:#F5F5F5;
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.letras_pequenas {
+    color: #7e343d;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header h1 {
+    font-family: Georgia, serif;
+    font-size: 38px;
+    margin-top: 8px;
+}
+
+#menu {
+    display: flex;
+    gap: 25px;
+}
+
+#menu p {
+    color: black;
+    font-size: 15px;
+}
+
+
+/* CONTEÚDO */
+
+main {
+    padding: 30px;
+}
+
+
+/* INTRODUÇÃO */
+
+#introducao {
+    background-color:#f8e0c8;
+    padding: 25px;
+}
+
+#introducao h2 {
+    font-family: Georgia, serif;
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+#introducao p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#introducao img {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    margin-top: 25px;
+    display: block;
+}
+
+
+/* GALERIA */
+
+#galeria {
+    margin-top: 35px;
+}
+
+#texto_galeria {
+    margin-bottom: 25px;
+}
+
+#texto_galeria h3 {
+    font-family: Georgia, serif;
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+
+/* FOTOS */
+
+#fotos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.foto {
+    background-color:#ffecc6;
+    width: 30%;
+    min-width: 280px;
+}
+
+.foto img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    display: block;
+}
+
+.foto h4 {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.foto p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.foto h4,
+.foto p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.foto h4 {
+    padding-top: 15px;
+}
+
+
+/* RODAPÉ */
+
+footer {
+    margin-top: 40px;
+    background-color: rgb(255, 253, 222);
+    padding: 20px;
+}
+
+footer p {
+    text-align: center;
+    padding: 8px;
+    font-size: 15px;
+}
